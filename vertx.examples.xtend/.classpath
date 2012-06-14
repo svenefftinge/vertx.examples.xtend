@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path=".xtend-gen"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.xtend.XTEND_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path=".lib/hazelcast.jar"/>
+	<classpathentry kind="lib" path=".lib/jackson-core.jar"/>
+	<classpathentry kind="lib" path=".lib/jackson-mapper.jar"/>
+	<classpathentry kind="lib" path=".lib/js.jar"/>
+	<classpathentry kind="lib" path=".lib/netty.jar"/>
+	<classpathentry kind="lib" path=".lib/vert.x-core.jar"/>
+	<classpathentry kind="lib" path=".lib/vert.x-platform.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
