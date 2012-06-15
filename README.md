@@ -16,14 +16,13 @@ There now follows a description of all the available examples:
 A simple echo server which echos back any sent to it
 
 To run the server:
-
-Select "launch_configs/EchoServer.launch" and choose run/debug
+_Select "launch_configs/EchoServer.launch" and choose run/debug_
 
 Then telnet localhost 1234 and notice how text entered via telnet is echoed back
 
 Instead of telnet you can also run a simple echo client in a different console:
 
-Select "launch_configs/EchoClient.launch" and choose run/debug
+_Select "launch_configs/EchoClient.launch" and choose run/debug_
 
 ## Fanout Server
 
@@ -31,7 +30,7 @@ Fans out all data received on any one connection to all other connections.
 
 To run the server:
 
-Select "launch_configs/FanoutServer.launch" and choose run/debug
+_Select "launch_configs/FanoutServer.launch" and choose run/debug_
 
 Then telnet localhost 1234 from different consoles. Note how data entered in telnet is echoed to all connected connections
 
@@ -42,13 +41,12 @@ request and displays the response it receives.
 
 To run the server:
 
-Select "launch_configs/HTTPServer.launch" and choose run/debug
+_Select "launch_configs/HTTPServer.launch" and choose run/debug_
 
 Then point your browser at [http://localhost:8080][http;//localhost:8080]
-
 Alternatively, you can also run the HTTP client in a different console:
 
-Select "launch_configs/HTTPClient.launch" and choose run/debug
+_Select "launch_configs/HTTPClient.launch" and choose run/debug_
 
 ## HTTPS
 
@@ -56,13 +54,13 @@ Like the HTTP example, but using HTTPS
 
 To run the server:
 
-Select "launch_configs/HTTPSServer.launch" and choose run/debug
+_Select "launch_configs/HTTPSServer.launch" and choose run/debug_
 
-Then point your browser at https://localhost:4443
+Then point your browser at [https://localhost:4443][https://localhost:4443]
 
 Alternatively, you can also run the HTTPS client in a different console:
 
-Select "launch_configs/HTTPSClient.launch" and choose run/debug
+_Select "launch_configs/HTTPSClient.launch" and choose run/debug_
 
 You'll get a warning from your browser since the server certificate the server is using is not known to it, that's normal.
 
@@ -83,15 +81,15 @@ Do each part in a different console:
 
 To run the http server:
 
-Select "launch_configs/ProxyHTTPServer.launch" and choose run/debug
+Select "launch_configs/ProxyHTTPServer.launch" and choose run/debug_
 
 Run the proxy server:
 
-Select "launch_configs/ProxyServer.launch" and choose run/debug
+Select "launch_configs/ProxyServer.launch" and choose run/debug_
 
 Run the http client:
 
-Select "launch_configs/ProxyHTTPClient.launch" and choose run/debug
+Select "launch_configs/ProxyHTTPClient.launch" and choose run/debug_
 
 ## PubSub
 
@@ -123,7 +121,7 @@ Where:
 
 To run the server:
 
-Select "launch_configs/PubSubServer.launch" and choose run/debug
+_Select "launch_configs/PubSubServer.launch" and choose run/debug_
 
 Then open some more consoles and telnet localhost 1234, and experiment with the protocol.
 
@@ -135,7 +133,7 @@ The example contains three static pages: index.html, page1.html and page2.html w
 
 To run the server:
 
-Select "launch_configs/SendFileExample.launch" and choose run/debug
+_Select "launch_configs/SendFileExample.launch" and choose run/debug_
 
 Then point your browser at http://localhost:8080 and click around
 
@@ -145,11 +143,11 @@ This is like the echo example, but this time using SSL.
 
 To run the server:
 
-Select "launch_configs/SSLServer.launch" and choose run/debug
+_Select "launch_configs/SSLServer.launch" and choose run/debug_
 
 To run the client in a different console:
 
-Select "launch_configs/SSLClient.launch" and choose run/debug
+_Select "launch_configs/SSLClient.launch" and choose run/debug_
 
 ## Websockets
 
@@ -160,7 +158,7 @@ The server just echoes back any data is receives on the websocket.
 
 To run the server:
 
-Select "launch_configs/WebSocketsExample.launch" and choose run/debug
+_Select "launch_configs/WebSocketsExample.launch" and choose run/debug_
 
 Then point your browser at: http://localhost:8080
 
@@ -171,7 +169,7 @@ in the manner of express (JS) or Sinatra.
 
 To run the example:
 
-Select "launch_configs/RouteMatchExample.launch" and choose run/debug
+_Select "launch_configs/RouteMatchExample.launch" and choose run/debug_
 
 Then point your browser at: http://localhost:8080.
 
@@ -190,7 +188,7 @@ It installs a simple SockJS application which simply echoes back any data receiv
 
 To run the server:
 
-Select "launch_configs/SockJsExample.launch" and choose run/debug
+_Select "launch_configs/SockJsExample.launch" and choose run/debug_
 
 Then point your browser at: http://localhost:8080
 
@@ -200,7 +198,7 @@ This example shows how the vert.x event bus can extend to client side JavaScript
 
 To run the server:
 
-Select "EventBusBridge.launch" and choose run/debug
+_Select "EventBusBridge.launch" and choose run/debug_
 
 The example shows a simple publish / subscribe client side JavaScript application that uses the vert.x event bus.
 
