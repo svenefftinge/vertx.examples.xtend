@@ -11,7 +11,7 @@ class EchoClient extends Verticle {
         println("Net client receiving: " + it)
       ]
       //Now send some data
-      for (i : 0..9) {
+      for (i : 1..10) {
         val str = "hello" + i + "\n";
         print("Net client sending: " + str)
         write(new Buffer(str))
